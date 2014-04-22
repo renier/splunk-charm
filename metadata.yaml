@@ -1,0 +1,13 @@
+name: splunk
+summary: Installs Splunk 
+maintainer: Renier Morales <renier@morales-rodriguez.net>
+description: |
+  Installs the splunk server.
+categories:
+  - app
+subordinate: false
+provides:
+  provides-relation:
+    interface: http
+  website:
+    interface: http
